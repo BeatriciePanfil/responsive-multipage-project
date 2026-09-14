@@ -31,18 +31,62 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="hero header-image">
-      <h2 class="mb-3">Your journey to healthy skin begins here</h2>
-      <h1>Korean Skincare</h1>
+    <div class="header-image">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/" title="Homepage">B.P.</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i
+              class="fa-solid fa-bars-staggered"
+              style="color: rgb(0, 0, 0)"
+            ></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link ps-3" href="/" title="Home">Home</a>
+              <a
+                class="nav-link active ps-3"
+                href="/brands.html"
+                title="Discover brands"
+                >Brands</a
+              >
+              <a
+                class="nav-link ps-3"
+                href="/products.html"
+                title="Discover products"
+                >Products</a
+              >
+              <a class="nav-link ps-3" href="/contact.html" title="Contact me"
+                >Contacts</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="hero">
+        <h2 class="mb-3">Your journey to healthy skin begins here</h2>
+        <h1>Korean Skincare</h1>
 
-      <p>
-        The global phenomenon of Korean skincare has redefined modern beauty,
-        shifting the focus from hiding imperfections to achieving a healthy,
-        lit-from-within glow. Driven by innovative ingredients and advanced
-        science, K-Beauty is no longer just a trend, but a daily essential for
-        radiant skin.
-      </p>
-      <a href="#" class="btn btn-explore-products"> Find your product</a>
+        <p>
+          The global phenomenon of Korean skincare has redefined modern beauty,
+          shifting the focus from hiding imperfections to achieving a healthy,
+          lit-from-within glow. Driven by innovative ingredients and advanced
+          science, K-Beauty is no longer just a trend, but a daily essential for
+          radiant skin.
+        </p>
+        <a href="#" class="btn btn-explore-products"> Find your product</a>
+      </div>
     </div>
 
     <h2 class="mt-5 mb-5 discover-msg">Discover brands</h2>
@@ -67,7 +111,9 @@
             dermatologists to solve targeted concerns like enlarged pores, acne,
             and loss of elasticity.
           </p>
-          <a href="#" class="btn btn-discover-brand">Medicube products</a>
+          <a href="/brands.html" class="btn btn-discover-brand"
+            >Medicube products</a
+          >
         </div>
       </div>
       <hr class="d-block d-md-none" />
