@@ -46,6 +46,7 @@ nav a:hover {
 }
 .header-image {
   background-image: url(/images/skincare-background-1.png);
+  background-size: cover;
 }
 .discover-msg {
   font-size: 34px;
