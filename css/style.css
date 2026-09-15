@@ -81,11 +81,17 @@ nav a:hover {
 .container-custom {
   margin: 0 30px;
 }
-.row.g-0 {
+.brand-name {
+  font-size: 40px;
+  text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
+}
+.row.g-0,
+.row.mb-5 {
   flex-direction: row;
   display: flex;
   align-items: center;
 }
+
 .contact-email {
   color: #000;
   text-decoration: none;
@@ -121,5 +127,41 @@ footer p {
   }
   footer p {
     font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  h2,
+  h3,
+  h4,
+  .brand-name,
+  .discover-msg {
+    font-size: calc(1rem + 1.5vw);
+  }
+  p,
+  .navbar-nav a,
+  .hero p,
+  .btn {
+    font-size: calc(0.5rem + 1.5vw);
+  }
+  .btn,
+  .card-body {
+    padding: 4px;
+  }
+  .hero {
+    padding: 30px 15px;
+  }
+  .container-custom {
+    margin: 0 10px;
+  }
+
+  .row {
+    max-width: 100%;
+    margin: auto;
+  }
+  .col-xl {
+    padding: 0;
   }
 }
